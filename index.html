@@ -1,0 +1,44 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div id="planted" class="currency planted">Planted: 0.00</div>
+        <div id="grown" class="currency grown">Grown: 0.00</div>
+        <div id="rice" class="currency rice">Rice: 0.00</div>
+    </header>
+    <main>
+        <div class="btn-box farm">
+            <p>Farm</p>
+            <div onclick="plant()" class="button">Plant</div>
+            <div onclick="grow()" class="button">Grow</div>
+            <div onclick="harvest()" class="button">Harvest</div>
+        </div>
+        <div class="btn-box tools">
+            <p>Tools</p>
+            <div onclick="upgradePlanter()" id="planterup" class="button">Planter</div>
+            <div onclick="upgradeGrower()" id="growerup" class="button growerup">Grower</div>
+            <div onclick="upgradeHarvester()" id="harvesterup" class="button harvesterup">Harvester</div>
+        </div>
+        <div class="btn-box workers">
+            <p>Workers</p>
+            <div class="button"></div>
+            <div class="button"></div>
+            <div class="button"></div>
+        </div>
+        <div id="info-box"></div>
+    </main>
+    <footer>
+        <div id="links">
+            <div class="link github">
+                <a href="">Github</a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="main.js"></script>
+</html>

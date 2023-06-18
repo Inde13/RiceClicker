@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+    user-select: none;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-image: linear-gradient(to bottom, white, rgb(234, 234, 234), rgb(193, 193, 193));
+}
+
+header {
+    background-color: gainsboro;
+    border-bottom: 1px solid black;
+    display: flex;
+}
+
+main {
+    display: flex;
+}
+
+footer {
+    margin-bottom: 20px;
+    margin-right: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+footer #links{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: 20px;
+    font-size: 1.2em;
+}
+
+
+.currency {
+    font-size: 1.8em;
+    color: black;
+    font-family: serif;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+
+.btn-box p {
+    font-size: 1.7em;
+    margin-top: 20px;
+    align-content: center;
+    text-align: center;
+}
+
+.button {
+    margin: 20px;
+    width: 100px;
+    height: 25px;
+    background-color: gainsboro;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(161, 161, 161);
+    transition-duration: 0.15s;
+}
+
+#info-box {
+    margin: 20px 20px 0px auto;
+    width: 200px;
+    height: 200px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: justify;
+}
+
+#info-box h2 {
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+#info-box p {
+    font-size: 1.1em;
+    padding: 5px;
+}
