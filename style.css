@@ -42,6 +42,26 @@ footer #links{
     font-size: 1.2em;
 }
 
+.link {
+    border: 3px solid black;
+    padding: 2px;
+    border-radius: 8px;
+}
+
+.link:hover {
+    border: 3px solid purple;
+    color: purple;
+    transition-duration: 0.3s;
+}
+
+.title {
+    font-size: 1.8em;
+    margin-left: auto;
+    margin-right: 10px;
+    color: black;
+    font-family: serif;
+    padding: 5px;
+}
 
 .currency {
     font-size: 1.8em;
@@ -90,9 +110,12 @@ footer #links{
 #info-box h2 {
     font-size: 1.2em;
     padding: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+    text-align: center;
 }
 
 #info-box p {
     font-size: 1.1em;
-    padding: 5px;
+    padding: 0px 5px 2px 5px;
 }

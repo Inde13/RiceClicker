@@ -3,20 +3,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Rice Clicker</title>
 </head>
 <body>
     <header>
         <div id="planted" class="currency planted">Planted: 0.00</div>
         <div id="grown" class="currency grown">Grown: 0.00</div>
         <div id="rice" class="currency rice">Rice: 0.00</div>
+        <div class="title">
+            Rice Clicker
+        </div>
     </header>
     <main>
         <div class="btn-box farm">
             <p>Farm</p>
-            <div onclick="plant()" class="button">Plant</div>
-            <div onclick="grow()" class="button">Grow</div>
-            <div onclick="harvest()" class="button">Harvest</div>
+            <div onclick="plant()" id="plant" class="button">Plant</div>
+            <div onclick="grow()" id="grow" class="button">Grow</div>
+            <div onclick="harvest()" id="harvest" class="button">Harvest</div>
         </div>
         <div class="btn-box tools">
             <p>Tools</p>
@@ -26,7 +29,7 @@
         </div>
         <div class="btn-box workers">
             <p>Workers</p>
-            <div class="button"></div>
+            <div onclick="hirePlanter()" id="planterworker" class="button">Hire</div>
             <div class="button"></div>
             <div class="button"></div>
         </div>
@@ -34,9 +37,7 @@
     </main>
     <footer>
         <div id="links">
-            <div class="link github">
-                <a href="">Github</a>
-            </div>
+            <a href="https://github.com/Inde13/RiceClicker" target="_blank"><div class="link github">Github</div></a>
         </div>
     </footer>
 </body>
